@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/cduhaney1/Chas-Portfolio.git"
   },
-  "author": "\"Chastity Duhaney\"",
+  "author": "Chastity Duhaney",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cduhaney1/Chas-Portfolio/issues"
@@ -18,5 +18,6 @@
   "homepage": "https://github.com/cduhaney1/Chas-Portfolio#readme",
   "dependencies": {
     "node-sass": "^4.11.0"
-  }
+  },
+  "devDependencies": {}
 }
