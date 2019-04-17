@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
   // Rotate Into X with Menu Lines
@@ -21,7 +21,7 @@
     .btn-line {
       // Line 1-Rotate
       &:nth-child(1) {
-        transform: rotate(405deg) translate(5px, 5px);
+        transform: rotate(45deg) translate(5px, 5px);
       }
 
       // Line 2-Hide
@@ -31,7 +31,7 @@
 
       // Line 3-Rotate
       &:nth-child(3) {
-        transform: rotate(-405deg) translate(7px, -6px);
+        transform: rotate(-45deg) translate(7px, -6px);
       }
     }
   }
@@ -41,7 +41,7 @@
 .menu {
   position: fixed;
   top: 0;
-  width: 100;
+  width: 100%;
   opacity: 0.9;
   visibility: hidden;
 
@@ -82,20 +82,22 @@
       //Slide in from top
       transform: translate3d(0, 0, 0);
     }
+  
     .portrait {
       width: 250px;
       height: 250px;
+      //@debugbackground-size: cover;
       background: url(../images/Portfolio-pic-2.png);
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
   }
   .nav-item {
-    transform: translate3d(400px, 1, 0);
+    transform: translate3d(20px, 0, 0);
     @include easeOut;
     &.show {
       //Slide in from right
-      transform: translate3d(0, 1, 0);
+      transform: translate3d(0, 0, 0);
     }
     &.current > a {
       color: $secondary-color;
@@ -106,9 +108,9 @@
     position: relative;
     font-size: 30px;
     text-transform: uppercase;
-    padding: 1 rem 0;
+    padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
