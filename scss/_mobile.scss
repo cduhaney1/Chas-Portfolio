@@ -29,7 +29,7 @@
     min-height: 0%;
 
     &.show {
-      transform: translate(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
   }
   .menu-nav {
@@ -42,7 +42,7 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url(../images/Portfolio_Tree.jpg);
+      background: url(../images/profile_pic_6copy.jpg);
       width: 150px;
       height: 150px;
     }

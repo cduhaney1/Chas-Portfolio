@@ -102,7 +102,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../images/parallax.jpg);
+    background: url(../images/apple-black-and-white-black-and-white-169573.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -259,7 +259,7 @@ main {
     min-height: 0%; }
     ul.menu-nav.show,
     div.menu-branding.show {
-      transform: translate(0, 0, 0); }
+      transform: translate3d(0, 0, 0); }
   .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
@@ -268,7 +268,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(../images/Portfolio_Tree.jpg);
+      background: url(../images/profile_pic_6copy.jpg);
       width: 150px;
       height: 150px; }
   .about-info {
