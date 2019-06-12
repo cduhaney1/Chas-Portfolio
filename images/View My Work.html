@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/dist/work.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./View My Work_files/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./View My Work_files/main.css">
+    <title>View My Work</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/dist/index.html" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/dist/about.html" class="nav-link">
+                        About Me
+                    </a>
+                </li>
+                <li class="nav-item current">
+                    <a href="http://127.0.0.1:5500/dist/work.html" class="nav-link">
+                        My Work
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/dist/contact.html" class="nav-link">
+                        How To Reach Me
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="work">
+        <h1 class="lg-heading">
+            My
+            <span class="text-secondary">Work</span>
+        </h1>
+        <h2 class="sm-heading">
+            Check out a few of my projects...
+        </h2>
+        <div class="projects">
+            <div class="item">
+
+                <img src="./View My Work_files/Star-Wars.png" alt="Project">
+                
+                <a href="https://movieio.rebeccauranga.com/" class="btn-light">
+                    <i class="fas fa-eye"></i> Movie.io
+                </a>
+                <a href="https://github.com/cduhaney1/digitalcrafts-movie.io" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+            <div class="item">
+
+                <img src="./View My Work_files/Screen Shot 2019-04-21 at 11.10.44 PM.png" alt="Project">
+                
+                <a href="http://dothething.chastityduhaney.com/" class="btn-light">
+                    <i class="fas fa-eye"></i> DoTheThing
+                </a>
+                <a href="https://github.com/cduhaney1/DoTheThing" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+            <div class="item">
+
+                <img src="./View My Work_files/Chas-Portfolio Pic.png" alt="Project">
+                
+                <a href="https://cduhaney1.github.io/Chas-Portfolio" class="btn-light">
+                    <i class="fas fa-eye"></i> Chas-Portfolio
+                </a>
+                <a href="https://github.com/cduhaney1/Chas-Portfolio" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+
+                </a>
+                <p>This my portfolio in which I created using HTML, Sass for the
+                    styling and some plain vanilla javascript.
+                </p>
+
+            </div>
+
+        </div>
+        
+    </main>
+
+    <footer id="main-footer">
+        Copyright © 2019
+    </footer>
+
+    <script src="./View My Work_files/main.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
